@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h2 class="mainHeader">My Portfolio</h2>
+        <div class="picPar">
+            <img id="mainImage" src="./images/normal.png" alt="Men">
+        </div>
+        <div class="eachContent aboutContent">
+            <div class="allContPar">
+                <div class="resumeCntnt">
+                    <i class="fa-regular fa-user"></i>
+                    <h4 class="contentHeader">Resume</h4>
+                    <button class="commonBtn gitHubBtn" onclick='window.location.href="https://drive.google.com/file/d/1paDFTIXMnWlwGzJrktyND4ppjhFN7Ega/view?usp=drivesdk"'>Download</button>
+                </div>
+            </div>
+            <div class="allContPar totalexpContnt">
+                <div class="resumeCntnt">
+                    <i class="fa-regular fa-clock"></i>
+                    <h4 class="contentHeader">Total Exp</h4>
+                    <p>1-yr 10-mth</p>
+                </div>
+            </div>
+        </div>
+        <div class="eachContent projectContent">
+            <div class="allContPar proMainCntnt">
+                <h4 class="contentHeader">Projects</h4>
+                <p class="projPara"> <b> Role: Jr. Software Developer</b></p>
+                <ul class="proContnt">
+                    <li>Developed an intuitive and responsive user interface, improving player accessibility and satisfaction.</li>
+                    <li>Integrated multiplayer functionality, allowing for cooperative play and in-game chat features.</li>
+                    <li>Conducted extensive playtesting and debugging, ensuring a smooth and polished final product.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="eachContent contactContent">
+            <div class="allContPar">
+                <h4 class="contentHeader">Contact Me</h4>
+                <div class="expNamesPar expNamesParContact">
+                    <button class="commonBtn linkedInBtn" onclick='window.location.href="https://www.linkedin.com/in/shrivatsa-g-i"'>linkedIn</button>
+                    <button class="commonBtn gitHubBtn" onclick='window.location.href="https://github.com/Shrivatsa009"'>GitHub</button>
+                    <button class="commonBtn emailBtn">Whatsapp</button>
+                </div>
+            </div>
+        </div>
+        <div class="eachContent experienceContent">
+            <div class="allContPar">
+                <h4 class="contentHeader">Frontend Developer</h4>
+                <div class="expNamesPar">
+                    <div class="expnames">
+                        <i class="fa-solid fa-check-to-slot"></i>
+                        <p>HTML</p>
+                    </div>
+                    <div class="expnames">
+                        <i class="fa-solid fa-check-to-slot"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="expnames">
+                        <i class="fa-solid fa-check-to-slot"></i>
+                        <p>Jquery</p>
+                    </div>
+                    <div class="expnames">
+                        <i class="fa-solid fa-check-to-slot"></i>
+                        <p>Javascript</p>
+                    </div>
+                    <div class="expnames">
+                        <i class="fa-solid fa-check-to-slot"></i>
+                        <p>React</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btns aboutBtn portfolioOptns">About</button>
+        <button class="btns projectBtn portfolioOptns">Project</button>
+        <button class="btns contactBtn portfolioOptns">Contect Me</button>
+        <button class="btns expBtn portfolioOptns">Experience</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

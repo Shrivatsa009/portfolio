@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(./images/bg.svg); */
+    background-color: #0d1322;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.btns {
+    all: unset;
+    pointer-events: all;
+    width: 180px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    background: linear-gradient(180deg, #01393d 0%, #002c2f 100%);
+    backdrop-filter: blur(3px);
+}
+.aboutBtn {
+    left: -40px;
+    top: -20px;
+    transform: rotate(320deg);
+}
+.projectBtn {
+    left: -40px;
+    bottom: -20px;
+    transform: rotate(45deg);
+}
+.contactBtn {
+    right: -40px;
+    bottom: -20px;
+    transform: rotate(-45deg);
+}
+.expBtn {
+    right: -40px;
+    top: -20px;
+    transform: rotate(-320deg);
+}
+.eachContent {
+    max-width: 260px;
+    width: 100%;
+    /* height: 200px; */
+    position: absolute;
+    display: none;
+}
+.aboutContent { 
+    left: 10%;
+    top: 10%;
+}
+.projectContent {
+    left: 10%;
+    bottom: 10%;
+}
+.contactContent {
+    right: 10%;
+    bottom: 10%;
+}
+.experienceContent {
+    right: 10%;
+    top: 10%;
+}
+.allContPar {
+    width: 100%;
+    padding: 12px;
+    background: #132a30;
+    border-radius: 10px;
+}
+.contentHeader {
+    font-family: Josefin Sans;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #97aac0;
+}
+.expnames p {
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-weight: 500;
+    color: #97aac0;
+}
+.expnames i,
+.resumeCntnt i,
+.resumeCntnt p {
+    color: #ffffffa3;
+}
+.expnames {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+}
+.expNamesPar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 6px;
+}
+.commonBtn {
+    all: unset;
+    pointer-events: all;
+    padding: 8px;
+    border-radius: 10px 0 10px 0;
+    color: #fff;
+    cursor: pointer;
+}
+.commonBtn.linkedInBtn {
+    border: 1px solid #03A9F4;
+}
+.commonBtn.gitHubBtn {
+    /* background: black; */
+    border: 1px solid #12a9bc;
+}
+.commonBtn.emailBtn {
+    border: 1px solid red;
+}
+.expNamesParContact {
+    flex-direction: row;
+}
+.resumeCntnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.proContnt {
+    margin: 10px 0 0 16px;
+    color: #ccc4b9;
+}
+.picPar {
+    width: 360px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.picPar img {
+    width: 100%;
+}
+.mainHeader {
+    font-family: Josefin Sans;
+    font-size: 32px;
+    margin: 20px 0;
+    padding: 4px 0;
+    background: linear-gradient(180deg, #32eaf1 0%, #0999ae 100%);
+    background: -moz-linear-gradient(180deg, #32eaf1 0%, #0999ae 100%);
+    background: -webkit-linear-gradient(180deg, #32eaf1 0%, #0999ae 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.portfolioOptns {
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-weight: 600;
+    color: #12a9bc;
+}
+.totalexpContnt {
+    margin-top: 10px;
+}
+/* .proMainCntnt {
+    background: linear-gradient(180deg, #40380b 0%, #736212 100%);
+} */
+.projPara {
+    color: antiquewhite;
+}
+
